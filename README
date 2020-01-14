@@ -1,0 +1,11 @@
+### first : please change the config file's path to your own path
+### HOW TO RUN 
+###
+Config.py: import python package and configuration path
+Data_preprocess.py: text preprocessing, get processed corpus
+Generate_featrue.py: Get the 3 feature vectors mentioned above
+Model.py: Use SVM (kernel = rbf) as a classifier for training and predicting results.
+
+Note: After configuring the path in config.py, you only need to execute python model.py. If the related dependencies are correct, please download them.
+
+#### python model.py
